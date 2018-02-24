@@ -1,0 +1,271 @@
+/**
+ BODY
+ * 1. 
+ */
+
+body {
+    width: 960px;
+    background-color: rgb(20, 20, 20);
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    max-width: 960px;
+    margin: auto;
+    background-image: url("whitepapertexture.gif");
+}
+
+.clear {
+    clear: both;
+}
+
+/**
+ Header Wrapper
+**/
+
+.headerWrapper {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    z-index: 0;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    border-top: 3px solid #d0cdc7;
+    border-bottom: 3px solid #d0cdc7;
+}
+
+/**
+ Name in header
+**/
+
+.Name {
+    width: 220px;
+    height: 70px;
+    background-color: #56aaa4;
+    color: #fff;
+    float: left;
+    position: absolute;
+    left: 24.75%;
+    z-index: 1;
+    padding-top: 30px;
+    padding-left: 30px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 30px;
+    clear: none;
+}
+
+
+/**
+ Nav1 Links
+**/
+
+.nav1 {
+    color: #777;
+    text-decoration: none;
+}
+
+
+/**
+ About Menu Item
+**/
+
+.aboutmenuItem {
+    width: 70px;
+    height: 70px;
+    background-color: #ebebeb;
+    color: #777;
+    text-align: center;
+    float: left;
+    position: absolute;
+    z-index: 1;
+    left: 58%;
+    margin-right: 10px;
+    padding-top: 30px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    border-right: 1px solid #d5d2cd;
+    clear: none;
+}
+
+/**
+ Portfolio Menu Item
+**/
+
+.portfoliomenuItem {
+    width: 70px;
+    height: 70px;
+    background-color: #ebebeb;
+    color: #777;
+    text-align: center;
+    z-index: 2;
+    left: 100%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    border-right: 1px solid #d5d2cd;
+    clear: none;
+}
+
+/**
+ Contact Menu Item
+**/
+
+.contactmenuItem {
+    width: 90px;
+    height: 70px;
+    background-color: #ebebeb;
+    color: #777;
+    text-align: center;
+    float: left;
+    position: absolute;
+    z-index: 0;
+    left: 70.25%;
+    padding-top: 30px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    clear: none;
+}
+
+/**
+ CONNECT WITH ME WRAPPER
+**/
+
+.connectwithmeWrapper {
+    width: 35%;
+    height: 220px;
+    background-color: #fff;
+    color: #5fa9a3;
+    text-align: center;
+    z-index: 0;
+    margin-left: 65%;
+    margin-right: 10px;
+    padding-top: 30px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    z-index: 0;
+    overflow: auto;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/**
+ ABOUTMEWRAPPER BOX
+**/
+
+.aboutmeWrapper {
+    width: 58%;
+    height: 700px;
+    background-color: #fff;
+    color: #a79a97;
+    text-align: center;
+    margin-bottom: 10px;
+    float: left;
+    z-index: 0;
+    overflow: none;
+    margin-top: 40px;
+    font-size: 18px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+/**
+About Me Title
+ **/
+
+.aboutme {
+    width: 560px;
+    color: #56aaa4;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #e0dedb;
+}
+
+.none {
+    text-align: left;
+    z-index: +1;
+    float: left;
+    position: absolute;
+    top: 250px;
+    left: 15px;
+    overflow: auto;
+    padding-top: 10px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+/**
+Image Wrapper
+ **/
+
+.imageWrapper {
+    height: 10%;
+    width: 10%;
+    text-align: center;
+    z-index: +1;
+    float: left;
+    position: relative;
+    top: 10px;
+    left: 0px;
+    overflow: none;
+    clear: both;
+    padding-top: 15px;
+}
+
+/**
+Profile Image
+ **/
+
+ .profileImage {
+    height: 100%;
+    width: 100%;
+    z-index: +1;
+    float: left;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: none;
+    clear: both;
+    margin: 4px 10px 0px 0px;
+    border: 1px solid #000000;
+}
+
+
+
+
+/**
+Text Wrapper
+ **/
+
+.textWrapper {
+    height: 100%;
+    width: 100%;
+    background-color: #ebebeb;
+    color: #777777;
+    text-align: center;
+    width: 530px;
+    height: 35px;
+    z-index: +1;
+    position: relative;
+    top: 330px;
+    left: 30px;
+    overflow: none;
+    padding-top: 15px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    clear: both;
+}
+
+/**
+ FOOTER
+ **/
+
+.footer {
+    width: 960px;
+    height: 40px;
+    background-color: #666666;
+    color: #aeaeae;
+    text-align: Center;
+    margin-top: 734px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding-top: 25px;
+    font-size: 10px;
+    border-top: 5px solid #56aaa4;
+}
