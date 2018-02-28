@@ -1,3 +1,8 @@
+/* \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/ *\
+
+/* Home/Index.html/About */
+
+
 body {
     background-image: url("../images/b1.png");
 }
@@ -201,11 +206,9 @@ footer {
 
 /* \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/ *\
 
-/* Portfolio Container */
+/* Portfolio Page */
 
 .portfolioContainer {
-    /* display: flex;
-    /* justify-content: space-between; */
     flex-flow: row wrap; */
     width: 100%;
     box-sizing: border-box;
@@ -217,7 +220,6 @@ footer {
     flex-flow: row wrap;
     text-align: center;
     box-sizing: border-box;
-    /* margin-bottom: 30px; */
 }
 
 .portfolioRow2 {
@@ -226,24 +228,13 @@ footer {
     flex-flow: row wrap;
     text-align: center;
     box-sizing: border-box;
-    /* margin-bottom: 30px;
-    margin-top: 25px; */
 }
 
 .portfolioRow3 {
     display: flex;
     justify-content: flex-start;
-    /* flex-flow: row wrap; */
-    /* text-align: center; */
     box-sizing: border-box;
-    /* margin-bottom: 30px;
-    margin-top: 25px; */
 }
-
-.portfolioRow1 & .portfolioRow2 & .portfolioRow3 {
-    margin-top: 25px;
-  }
-
 
 .portfolio1 {
     position: relative;
@@ -300,47 +291,19 @@ img {
 a.picture {
     position: absolute;
     top: 67%;
-    text-align: left;
-    background-color: red;
+    text-align: center;
+    background-color: #ff8207;
     width: 100%;
     left: 0;
     padding: 40px;
     box-sizing: border-box;
     color: white;
+    font-family: 'Francois One', sans-serif;
+    text-decoration: none;
+    font-size: 24px;
 }
 
+/* \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/ *\
 
+/* Contact Page */
 
-/* <a href='#' class='picture'> (((a.picture)
-    position: relative;
-    display: block;
-    width: 600px;
-    <img src="url">
-    <p style="
-        position: absolute;
-        color: : white;
-        top: 50%; - starts the top at 50%
-        width: 100%;
-        background-color: purple;
-        padding: 20px;
-        box-sizing: border-box; - tells element to calc width and height with padding the same
-        font-size: 16px;
-        border: dashed 4px beige;
-    ">Hangman</p>
-</a>
-
-
-
-
-* {
-    box-sizing: border-box;
-}
-
-
-click plus button then:
-*:after {
-    jeannie was here
-}
-
-
-" */
