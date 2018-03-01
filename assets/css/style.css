@@ -338,11 +338,13 @@ input[type=text], select, textarea {
     margin-bottom: 16px;
 }
 
-placeholder {
-    color: #b8bac5;
-    font-family: 'Francois One', sans-serif;
-    resize: vertical;
+::placeholder {
+    color: #a1a6ac;
+    opacity: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif 
 }
+
+ 
 
 input[type=submit] {
     background-color: #56aaa4;
